@@ -5,6 +5,8 @@
  */
 package clusteringjerarquico;
 
+import com.indexing.org.QueryBp;
+
 /**
  *
  * @author hugo
@@ -14,8 +16,10 @@ public class ClusteringJerarquico {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+   
+    QueryBp queryBP = new QueryBp();
+    
+    
+    
     
 }
